@@ -5,11 +5,11 @@ body {
 #container {
 	position: relative;
     margin: 0 auto;
-    width: 84%;
+    width: 86%;
 }
 
 img {
-    max-width: 80%;
+    max-width: 85%;
 }
 
 header {
@@ -48,101 +48,102 @@ li {
 	float:  right;
 }
 li a {
-	display:  block;
+	display: block;
 	text-align: center;
 	text-decoration: none;
 	padding: 12px 15px;
 	color: white;
 }
 
+h5 {
+	font-style: italic;
+}
+
 main {
 	position: relative;
     margin: 0 auto;
-    width: 90%;
-    text-align: center;
-
+    width: 84%;
 }
 
 #walloftext {
-	  text-align: center;
-    	font-weight: bold;
+	 text-align: center;
+     font-weight: bold;
+}
+
+.row {
+	width: 100%;
+}
+
+.column {
+    width: 50%;
+    float: left;
+	overflow: hidden;
 }
 
 input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #C65252;
-  border-radius: 4px;
-  background-color:#CABBB7;
+ 	 width: 85%;
+	 padding: 12px 20px;
+	 margin: 8px 0;
+ 	 box-sizing: border-box;
+	 border: 2px solid #C65252;
+ 	 border-radius: 4px;
+ 	 background-color:#CABBB7;
 }
 
 select {
-  width: 100%;
-  padding: 12px 20px;
-  border: 2px solid #C65252;
-  border-radius: 4px;
+ 	width: 85%;
+ 	padding: 12px 20px;
+  	border: 2px solid #C65252;
+ 	border-radius: 4px;
 	background-color:#CABBB7;
 }
 
 textarea {
-	 width: 100%;
- 	 padding: 12px 20px;
- 	 margin: 8px 0;
+	width: 85%;
+ 	padding: 12px 20px;
+ 	margin: 8px 0;
   	box-sizing: border-box;
- 	 border: 2px solid #C65252;
- 	 border-radius: 4px;
+ 	border: 2px solid #C65252;
+ 	border-radius: 4px;
 	background-color:#FDF2E9;
-  	
+	text-align: left;
 }
 
 
 input[type=submit] {
-  background-color: #C65252;
-   border: 2px solid #C65252;
-  border-radius: 4px;
-  color: white;
-  padding: 16px 40px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-
-.column {
-    width: 50%;
-    float: left; 
-}
-
-
-.fakeimg {
- 	 background-color:#C65252;
-  	width: 100%;
-  	 padding: 12px 20px;
-  	 box-sizing: border-box;
- 	margin: 8px 0;
- 	 border: 2px solid #C65252;
- 	 border-radius: 4px;
- 	 overflow: hidden;
+  	background-color: #C65252;
+    border: 2px solid #C65252;
+  	border-radius: 4px;
+  	color: white;
+  	padding: 16px 40px;
+  	text-decoration: none;
+  	margin: 4px 2px;
+  	cursor: pointer;
 }
 
 .towel {
   background-color:#FDF2E9;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
+  text-align: center;
 }
 
-h5 {
-	font-style: italic;
+.fakeimg {
+ 	background-color:#C65252;
+  	width: 100%;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+ 	margin: 8px 0;
+ 	border: 2px solid #C65252;
+ 	border-radius: 4px;
+ 	overflow:auto;
 }
-
 
 Footer {
-	text-align: center;
-	background-color: #CABBB7;
-	padding: 10px;
-	clear: both;
 	position: relative;
 	bottom: 0px;
+	padding: 10px;
+	clear: both;
+	text-align: center;
+	background-color: #CABBB7;
 }
