@@ -116,10 +116,33 @@ input[type=submit] {
 }
 
 
-Footer {
+.fakeimg {
+ 	 background-color:#C65252;
+  	width: 100%;
+  	 padding: 12px 20px;
+  	 box-sizing: border-box;
+ 	margin: 8px 0;
+ 	 border: 2px solid #C65252;
+ 	 border-radius: 4px;
+ 	 overflow: hidden;
+}
 
+.towel {
+  background-color:#FDF2E9;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h5 {
+	font-style: italic;
+}
+
+
+Footer {
 	text-align: center;
 	background-color: #CABBB7;
 	padding: 10px;
 	clear: both;
+	position: relative;
+	bottom: 0px;
 }
