@@ -60,8 +60,55 @@ main {
     margin: 0 auto;
     width: 90%;
     text-align: center;
-    font-weight: bold;
+
 }
+
+#walloftext {
+	  text-align: center;
+    	font-weight: bold;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #C65252;
+  border-radius: 4px;
+  background-color:#CABBB7;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid #C65252;
+  border-radius: 4px;
+	background-color:#CABBB7;
+}
+
+textarea {
+	 width: 100%;
+ 	 padding: 12px 20px;
+ 	 margin: 8px 0;
+  	box-sizing: border-box;
+ 	 border: 2px solid #C65252;
+ 	 border-radius: 4px;
+	background-color:#FDF2E9;
+  	
+}
+
+
+input[type=submit] {
+  background-color: #C65252;
+   border: 2px solid #C65252;
+  border-radius: 4px;
+  color: white;
+  padding: 16px 40px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 
 .column {
     width: 50%;
